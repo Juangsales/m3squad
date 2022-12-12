@@ -1,0 +1,38 @@
+.corpoQuest {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    text-align: justify;
+    margin: auto;
+
+}
+
+.styles_faq-row-wrapper__3vA1D {
+    background-color: var(--faq-bg-color, transparent);
+}
+
+.styles_faq-row-wrapper__3vA1D h2 {
+    margin: 0;
+    color: var(--title-text-color, white);
+    font-size: var(--title-text-size, 30px);
+}
+
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    color: var(--row-title-color, white);
+    font-size: var(--row-title-text-size, large);
+    cursor: pointer;
+    align-items: center;
+}
+
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-content__QOGZd .styles_row-content-text__2sgAB {
+    color: var(--row-content-color, white);
+    font-size: var(--row-content-text-size, medium);
+    padding: var(--row-content-padding-top, 0) var(--row-content-padding-right, 0) var(--row-content-padding-bottom, 0) var(--row-content-padding-left, 0);
+}
+
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY .styles_icon-wrapper__2cftw svg {
+    fill: var(--arrow-color, #e91e63);
+}

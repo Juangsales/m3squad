@@ -1,0 +1,15 @@
+.listafilme{
+    pointer-events: visible;
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+.filmes{
+ display: flex;
+ justify-content: space-between;
+ margin: 0.5em;
+}
+.corpoFilme {
+    background-color: transparent;
+    padding-top: 3%;
+}

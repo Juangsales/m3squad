@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.Header {
+    color: #ffffff;
+    overflow: hidden;
+    
+}
+
+h1 {
+    color:  #bbbbbb;
+}
+
+.NavMenu {
+    margin: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    color: #ffffff;
+}
+
+.NavLogo img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Layout_navMenu__PrgY2 {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100vw;
+    padding: 5%;
+}
+.NavLogo a {
+    color:#e91e63;
+}
+
+.Btn {
+    margin: 0.5em;
+    outline-style: none;
+    justify-content: space-around;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+    color: #bbbbbb;
+    padding: 0 10px;
+
+}
+
+.Btn:after {
+    content: "";
+    position: absolute;
+    background-color: #e91e63;
+    height: 2px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.Btn a:hover {
+    color: #ffffff;
+}
+
+.Btn:hover:after {
+    width: 100%;
+    color: #ffffff;
+}
+
+.SearchBox {
+    transform: translate(-10%, -5%);
+    background: #ffffff33;
+    height: 40px;
+    border-radius: 40px;
+    padding: 1px;
+}
+
+.SearchBtn {
+    color: #e91e63;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ffffff33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+
+.SearchTxt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding-left: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 0,4s;
+    line-height: 40px;
+    width: 240px;
+}
+
+input.SearchBox:hover > .SearchTxt {
+    width: 240px;
+    padding: 0 6px;
+
+}
+
+input.SearchTxt:hover {
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 1px 2px 5px 0px rosybrown;
+}
+
+input.SearchTxt:focus {
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 1px 2px 5px 0px rosybrown;
+}
+
+
+
+input.SearchBox:hover > .SearchBtn {
+    background: #ffffff;
+
+}
+
+body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(36, 38, 43, 1) 47%, rgba(0, 0, 0, 1) 100%);
+    background-repeat: repeat;
+    overflow-x: hidden;
+    color:#bbbbbb
+}
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media only screen and (max-device-width: 480px) {
+    .NavMenu {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .NavMenu {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+}

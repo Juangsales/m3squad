@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header {
+    color: #ffffff;
+    overflow: hidden;
+    padding: 2%;
+}
+
+h1 {
+    color: #bbbbbb;
+}
+
+.navMenu {
+    margin-top: 2%;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    color: #ffffff;
+    
+}
+
+.navLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 82.7px;
+    width: 381.5px;
+    transform: translate(-10%, 10%);
+
+}
+
+.navLogo a {
+    color: #e91e63;
+}
+
+.btn {
+    margin: 0.5em;
+    outline-style: none;
+    justify-content: space-around;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+    color: #bbbbbb;
+    padding: 0 10px;
+    transform: translate(-70%, 30%);
+
+}
+
+.btn:after {
+    content: "";
+    position: absolute;
+    background-color: #e91e63;
+    height: 2px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.btn a:hover {
+    color: #ffffff;
+}
+
+.btn:hover:after {
+    width: 100%;
+    color: #ffffff;
+}
+
+.searchBox {
+    transform: translate(-10%, 25%);
+    background: #ffffff33;
+    height: 40px;
+    border-radius: 40px;
+    padding: 1px;
+}
+
+.searchBtn {
+    color: #e91e63;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ffffff33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+
+.searchTxt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding-left: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 0, 4s;
+    line-height: 40px;
+    width: 240px;
+}
+
+input.searchTxt:hover {
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 1px 2px 5px 0px rosybrown;
+}
+
+.searchBox:hover>.searchTxt {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.searchBox:hover>.searchBtn {
+    background: #ffffff;
+
+}
+
+body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(36, 38, 43, 1) 47%, rgba(0, 0, 0, 1) 100%);
+    background-repeat: repeat;
+    overflow-x: hidden;
+    color: #bbbbbb
+}
+
+
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media only screen and (max-device-width: 480px) {
+    .navMenu {
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: center;
+        transform: none;
+        padding-bottom: 2em;
+    }
+
+    .navLogo {
+        justify-content: center;
+        transform: translate(-10%, 10%);
+
+    }
+
+}
+
+@media only screen and (max-device-width: 768px) {
+    .navMenu {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+
+}

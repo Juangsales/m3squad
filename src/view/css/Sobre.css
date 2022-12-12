@@ -1,0 +1,26 @@
+span{
+    color:rgb(233 30 99);
+}
+
+.img{
+    width: 100%;
+    margin-bottom: 10%;
+    border-radius: 50%;
+}
+h5{
+    margin-bottom: 10%;
+
+}
+.cd {
+    text-align: center;
+    display: flow-root;
+}
+.ct{
+    text-align: center;
+}
+.grupo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 35%;
+}

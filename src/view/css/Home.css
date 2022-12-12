@@ -1,0 +1,54 @@
+.Homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SlideCarousel {
+    padding: 0.5rem;
+    margin: 4rem;
+}
+
+.Spotlight {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 3%;
+    padding: 1em;
+
+}
+
+.Spot {
+    display: flex;
+    flex-direction: column;
+
+}
+
+h5 {
+    color: #bbbbbb
+}
+
+a {
+    color: #bbbbbb
+}
+
+@media only screen and (max-device-width: 480px) {
+    .Spotlight {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .SlideCarousel { 
+        margin: 0;
+        padding-top: 2rem;
+    }
+ }
+
+@media only screen and (max-device-width: 768px){
+    .Spot {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+}
